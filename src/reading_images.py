@@ -35,7 +35,8 @@ def read_image_png_or_jpeg(file_name):
     """
     image = np.array(ii0.imread(file_name))
     # return image
-    return image[:, :, 0]
+    # return image[:, :, 0]
+    return image[:, :]
 
 
 def read_image_DICOM(file_name):
@@ -44,7 +45,8 @@ def read_image_DICOM(file_name):
     """
     image = np.array(ii0.imread(file_name, plugin='DICOM'))
     # return image
-    return image[:, :, 0]
+    # return image[:, :, 0]
+    return image[:, :]
 
 
 def read_image_mat(file_name):

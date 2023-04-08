@@ -73,4 +73,4 @@ if __name__ == '__main__':
 
     convert_to_png(inputdir)
     # clear_html_files(inputdir)
-    # print(test_list[0:5])**5  
+    # print(test_list[0:5])**5

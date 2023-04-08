@@ -255,9 +255,9 @@ if __name__ == '__main__':
     # Given an image. I croppes it. I saves it. I plots it. It loves it.
 
     crop_a_normal_mammogramm(
-        r'C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\vindr.jpg')
+        r'/home/amargkas/VinDR/physionet.org/files/vindr-mammo/1.0.0/images/0a0c5108270e814818c1ad002482ce74/1b66d3ea1dae116b7c0e87e3caab3340.png')
 
     # run for any path you want as long as it is a full mammogramm.
 
     majority_filter(
-        r'C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\VINDR_MAMMOGRAM.png', True)
+        r'/home/amargkas/VinDR/physionet.org/files/vindr-mammo/1.0.0/images/0a0c5108270e814818c1ad002482ce74/1b66d3ea1dae116b7c0e87e3caab3340.png', True)
