@@ -27,7 +27,7 @@ def get_filepaths(directory):
 # Run the above function and store its results in a variable.
 full_file_paths = get_filepaths("/Users/johnny/Desktop/TEST")
 onlyfiles = get_filepaths(
-    r"C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\fullMammogramsConvertedToPng")
+    r"C:\\CBIS_DDSM_Image_Processing\fullMammogramsConvertedToPng")
 
 
 for i in range(0, 10, 2):
