@@ -1,5 +1,5 @@
 % Specify the folder where the files live.
-myFolder = "C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\comparison_full_mammos";
+myFolder = "PATH\CBIS_DDSM_Image_Processing\comparison_full_mammos";
 
 % Check to make sure that folder actually exists.  Warn user if it doesn't.
 if ~isfolder(myFolder)
@@ -30,7 +30,7 @@ for i = 1 : length(subDirsNames)
     
     baseFileName = theFile(3).name;
     baseFilePath = theFile(3).folder;
-    %fullImagePath = 'C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg';
+    %fullImagePath = 'PATH\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg';
     fullImagePath = fullfile(baseFilePath, baseFileName);
     fprintf(1, 'Now reading %s\n', fullImagePath);
     
@@ -51,7 +51,7 @@ end
 %for k = 1 : length(theFiles)[0:1])
 %    baseFileName = theFiles(3).name;
 %    eFileName = theFiles(k).name;
-%    fullImagePath = 'C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg';
+%    fullImagePath = 'PATH\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg';
 %    %fullImagePath = fullfile(theFiles(k).folder, baseFileName);
 %    fprintf(1, 'Now reading %s\n', fullImagePath);
 %    % Now do whatever you want with this file name,
