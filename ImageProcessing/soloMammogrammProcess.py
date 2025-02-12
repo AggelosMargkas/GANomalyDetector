@@ -13,7 +13,7 @@ from NYU_crop_single_mammogram import crop_mammogram_one_image
 import matplotlib.pyplot as plt
 from PIL import Image
 
-# mask = image.imread(    'C:/Users/junio/Desktop/Thesis/CBIS_DDSM_Image_Processing/manifest-1667899688383/CBIS-DDSM/Calc-Training_P_01647_RIGHT_MLO_1/1-2.png')
+# mask = image.imread(    'C:/PATH/CBIS_DDSM_Image_Processing/manifest-1667899688383/CBIS-DDSM/Calc-Training_P_01647_RIGHT_MLO_1/1-2.png')
 
 scan = {"horizontal_flip": "YES", "side": "R"}
 print(scan)
@@ -25,7 +25,7 @@ def plot_morphological_changes():
         digitized CBIS-DDSM
     """
     img1 = image.imread(
-        r'C:/Users/junio/Desktop/Thesis/CBIS_DDSM_Image_Processing/manifest-1667995631662/CBIS-DDSM/Calc-Test_P_00038_LEFT_CC/image.png')
+        r'C:/PATH/CBIS_DDSM_Image_Processing/manifest-1667995631662/CBIS-DDSM/Calc-Test_P_00038_LEFT_CC/image.png')
     img2 = image.imread(
         r"C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\outputImages\cropped_image1.png")
     img3 = image.imread(
@@ -59,7 +59,7 @@ plot_morphological_changes()
 def dicomTOpng():
 
     # main path to CBIS-DDSM
-    inputdir = r'C:/Users/junio/Desktop/Thesis/CBIS_DDSM_Image_Processing/manifest-1667995631662/CBIS-DDSM'
+    inputdir = r'C:/PATH/CBIS_DDSM_Image_Processing/manifest-1667995631662/CBIS-DDSM'
 
     # get all possible image paths
     test_list = [f for f in os.listdir(inputdir)]
