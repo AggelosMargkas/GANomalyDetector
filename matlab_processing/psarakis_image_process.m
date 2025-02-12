@@ -43,26 +43,26 @@ close
 
 
 %bad example
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\fullMammogramsConvertedToPng\1-299.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\fullMammogramsConvertedToPng\1-299.jpg');
 
 %antother example, noise on top.
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.425182509912779827704955040293854758529\1-022.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.425182509912779827704955040293854758529\1-022.jpg');
 
 %problematic example bottomwise pixels does not work properly. AND leftmost
 %wish works reversly.
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.307271664512650974022213502811472047069\1-201.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.307271664512650974022213502811472047069\1-201.jpg');
 
 % Good example, we lose some information on the bottom of the image.
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\data\jpeg\1.3.6.1.4.1.9590.100.1.2.257979549512926684716381871403745112147\1-107.jpg');
 
 % Let's go.
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\comparison_full_mammos\1-000\1-000.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\comparison_full_mammos\1-000\1-000.jpg');
 
 % Horrible example, but fixed with if args on the first cut.
-%a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\comparison_full_mammos\1-009\1-009.jpg');
+%a = imread('PATH\CBIS_DDSM_Image_Processing\comparison_full_mammos\1-009\1-009.jpg');
 
 % Let's go.
-a = imread('C:\Users\junio\Desktop\Thesis\CBIS_DDSM_Image_Processing\VINDR_MAMMOGRAM.png');
+a = imread('PATH\CBIS_DDSM_Image_Processing\VINDR_MAMMOGRAM.png');
 
 %a = alpha;
 %a = double(a);
